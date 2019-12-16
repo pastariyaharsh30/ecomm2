@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/sign_up_close_button"
+            android:src="@drawable/ic_cancel_black"
+            android:layout_alignParentRight="true"
+            android:padding="16dp"
+            android:background="@android:color/transparent"
+            >
+
+        </ImageButton>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:id="@+id/logo_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/signup_email_et"
+            android:layout_below="@+id/logo_img"
+            android:layout_centerHorizontal="true"
+            android:hint="Email ID"
+            android:textColorHint="#CACACA"
+            android:backgroundTint="#CACACA"
+            android:layout_marginTop="40dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/signup_full_name_et"
+            android:layout_below="@+id/logo_img"
+            android:layout_centerHorizontal="true"
+            android:hint="Full Name"
+            android:textColorHint="#CACACA"
+            android:backgroundTint="#CACACA"
+            android:layout_marginTop="90dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/signup_password_et"
+            android:layout_below="@+id/logo_img"
+            android:layout_centerHorizontal="true"
+            android:hint="Password"
+            android:textColorHint="#CACACA"
+            android:backgroundTint="#CACACA"
+            android:layout_marginTop="140dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/signup_confirm_password_et"
+            android:layout_below="@+id/logo_img"
+            android:layout_centerHorizontal="true"
+            android:hint="Confirm Password"
+            android:textColorHint="#CACACA"
+            android:backgroundTint="#CACACA"
+            android:layout_marginTop="190dp"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup_progressbar"
+            android:outlineAmbientShadowColor="@color/colorPrimary"
+            android:outlineSpotShadowColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/signup_confirm_password_et"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:layout_marginTop="15dp"
+
+            />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup_btn"
+            android:textSize="20sp"
+            android:text="Sign Up"
+            android:background="#4CAF50"
+            android:textColor="#50ffffff"
+            android:enabled="false"
+
+            android:layout_below="@+id/signup_confirm_password_et"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="1dp"
+            android:background="#CACACA"
+            android:layout_below="@id/signup_btn"
+            android:layout_marginTop="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="1dp"
+            android:background="#CACACA"
+            android:layout_below="@id/signup_btn"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or"
+            android:layout_below="@+id/signup_btn"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_already_have_account"
+            android:text="Already a User | Sign In"
+            android:textStyle="bold"
+            android:layout_below="@+id/signup_btn"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

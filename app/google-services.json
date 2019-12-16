@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "24011516551",
+    "firebase_url": "https://pastariya-and-sons.firebaseio.com",
+    "project_id": "pastariya-and-sons",
+    "storage_bucket": "pastariya-and-sons.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24011516551:android:9af883847043c74cbd6622",
+        "android_client_info": {
+          "package_name": "com.example.pastariyaandsons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24011516551-ju69jtmjg7mdp4hq2kmskd69jiftftmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNi7uWwHFAtiwaiagGyO-MQV3RkQvqU-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24011516551-ju69jtmjg7mdp4hq2kmskd69jiftftmh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

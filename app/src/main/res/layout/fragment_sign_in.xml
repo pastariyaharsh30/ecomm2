@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInFragment"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/sign_in_close_button"
+            android:src="@drawable/ic_cancel_black"
+            android:layout_alignParentRight="true"
+            android:padding="16dp"
+            android:background="@android:color/transparent"
+            >
+
+        </ImageButton>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:id="@+id/logo_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/signin_email_et"
+            android:layout_below="@+id/logo_img"
+            android:layout_centerHorizontal="true"
+            android:hint="Email ID"
+            android:textColorHint="#CACACA"
+            android:backgroundTint="#CACACA"
+            android:layout_marginTop="50dp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_user_name"
+            android:layout_below="@+id/logo_img"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/signin_password_et"
+            android:layout_below="@+id/signin_email_et"
+            android:layout_centerHorizontal="true"
+            android:hint="Password"
+            android:textColorHint="#CACACA"
+            android:backgroundTint="#CACACA"
+            android:layout_marginTop="20dp"
+
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_key_black_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/signin_email_et"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signin_password_et"
+            android:text="Forgot Password "
+            android:textColor="#CACACA"
+            android:textStyle="bold"
+            android:id="@+id/signin_forgot_password_tv"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signin_progressbar"
+            android:outlineAmbientShadowColor="@color/colorPrimary"
+            android:outlineSpotShadowColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/signin_forgot_password_tv"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/signin_btn"
+            android:textSize="20sp"
+            android:text="Sign In"
+            android:background="#4CAF50"
+            android:enabled="false"
+            android:textColor="#50ffffff"
+            android:layout_below="@+id/signin_forgot_password_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="1dp"
+            android:background="#CACACA"
+            android:layout_below="@id/signin_btn"
+            android:layout_marginTop="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="1dp"
+            android:background="#CACACA"
+            android:layout_below="@id/signin_btn"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or"
+            android:layout_below="@+id/signin_btn"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_signup_dont"
+            android:text="New User | Sign Up"
+            android:textStyle="bold"
+            android:layout_below="@+id/signin_btn"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>
